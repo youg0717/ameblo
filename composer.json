@@ -13,5 +13,14 @@
     ],
     "autoload": {
         "classmap": ["Ameblo.php"]
-    }
+    },
+    "repositories": [
+      {
+        "type": "pear",
+        "url": "http://pear.php.net/"
+      }
+    ],
+    "require": {
+      "pear-pear.php.net/HTTP_REQUEST" : "*",
+    },
 }
