@@ -1,0 +1,17 @@
+{
+    "name": "youg0717/ameblo",
+    "type": "library",
+    "description": "Ameblo Library",
+    "keywords": ["ameblo"],
+    "homepage": "https://github.com/youg0717/ameblo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuji Shibuye",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "classmap": ["Ameblo.php"]
+    }
+}
