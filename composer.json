@@ -22,5 +22,5 @@
     ],
     "require": {
       "pear-pear.php.net/HTTP_REQUEST" : "*"
-    },
+    }
 }
