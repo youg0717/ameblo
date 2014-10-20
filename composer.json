@@ -14,14 +14,13 @@
     "autoload": {
         "classmap": ["Ameblo.php"]
     },
-    "minimum-stability": "dev",
     "repositories": [
         {
-            "type": "vcs",
-            "url":  "https://github.com/pear/HTTP_Request.git"
+            "type": "pear",
+            "url":  "http://pear2.php.net"
         }
     ],
     "require": {
-      "pear/http_request" : "*"
+        "pear-pear2/PEAR2_HTTP_Request": "*"
     }
 }
