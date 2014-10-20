@@ -14,6 +14,13 @@
     "autoload": {
         "classmap": ["Ameblo.php"]
     },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/pear/HTTP_Request.git"
+        }
+    ],
     "require": {
       "pear/http_request" : "*"
     }
